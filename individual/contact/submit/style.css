@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/*navbar styling*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Work Sans', sans-serif;
+    transition: all .03s ease;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar .navbar-nav li {
+    list-style: none;
+    display: inline-block;
+
+
+}
+.navbar .navbar-nav li a{
+    color: #232323;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 50;    
+    transition: color 0.3s ease;
+    margin-left:15px;
+}
+
+#contactlink{
+    margin-right:70px;
+    border-bottom:1.5px solid #232323;
+    padding-bottom:5px; 
+}
+
+.navbar .navbar-nav li a:hover{
+    border-bottom:1.5px solid #232323;
+    padding-bottom:5px; 
+    transition: 
+}
+/*.navbar .logo a{
+    color: black;
+    font-size: 27px;
+    font-weight: 650;
+    font-family:'BIZ UDPGothic', sans-serif;
+}*/
+
+.navbar-brand img{
+    width:6%;
+    margin-left:-18px;
+    margin-top:13px;
+}
+.text1{
+    text-align:center;
+    font-size:32px;
+    font-family:'Work Sans', sans-serif;
+    color: #232323;
+    margin-top: 100px;
+}
+.text2{
+    text-align:center;
+    font-size:18px;
+    font-family:'Work Sans', sans-serif;
+    color: #232323;
+    margin-left:300px;
+    margin-right:300px;
+    margin-top:50px;
+}
+/*icons*/
+.icons{
+    text-align: center;
+    padding:50px;
+    font-size:33px;
+  }
+  .uil{
+      margin:30px;
+      color:#232323;
+  }
+  #linkedin:hover{
+    font-size:40px;
+transition: all 0.2s ease;
+  }
+  #instagram:hover{
+      font-size:40px;
+      transition: all 0.2s ease;
+  }
