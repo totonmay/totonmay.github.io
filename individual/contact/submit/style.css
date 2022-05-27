@@ -93,12 +93,55 @@ html{
   .uil{
       margin:30px;
       color:#232323;
+      transition: all 0.2s ease;
   }
   #linkedin:hover{
     font-size:40px;
-transition: all 0.2s ease;
+    color:#4A78C2;
   }
   #instagram:hover{
       font-size:40px;
       transition: all 0.2s ease;
+      color:#AC5A93;
   }
+  .text1{
+    -webkit-animation-fill-mode:both;
+    -webkit-animation-duration:2s;
+    animation-duration:2s;
+  }
+  {
+    animation-delay:.5s;
+    -webkit-animation-delay:.5s;
+    -webkit-animation-fill-mode:both;
+    -webkit-animation-duration:2s;
+    animation-duration:2s;
+  }
+  @-webkit-keyframes fadeOutUp {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(1);
+      -webkit-transform: translateY(40px);
+      }	100% {
+          opacity: 1;
+      }
+  }
+  
+  .fadeOutUp {
+      -webkit-animation-name: fadeOutUp;
+      animation-name: fadeOutUp;
+  }
+  
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+  }
+  
+  @-webkit-keyframes fadeIn {
+      0%{
+      opacity: 0;
+          -webkit-transform: translateY(1);
+      -webkit-transform: translateY(40px);
+    }
+    100% {
+          opacity: 1;
+      }
