@@ -9,6 +9,10 @@
 html{
     scroll-behavior: smooth;
 }
+html, body {
+    margin:0;
+    height:100%;
+  }
 /*navbar styling*/
 .navbar{
     position: fixed;
@@ -68,15 +72,18 @@ html{
 }*/
 
 .navbar-brand img{
-    width:6%;
+    width:5%;
     margin-left:-18px;
     margin-top:13px;
 }
-.intro{
-    display: flex;
+.home{
+    /*display: flex;*/
     background: url("../images/protohome3\ \(3\).jpg") no-repeat center;
-    background-size:1280px;
+    background-size:cover;
+    /*background-size:1280px;
     min-height: 500px;
+    width:100%;*/
+
 }
 .hello{
     color:#ffff;
@@ -92,7 +99,7 @@ html{
     font-family: 'Work Sans', sans-serif;
     font-weight:normal;
     margin-top:30px;
-    margin-left:
+    margin-bottom:170px;
 }
 .hello{
     -webkit-animation-fill-mode:both;
