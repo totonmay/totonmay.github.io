@@ -44,6 +44,8 @@ html{
     transition: color 0.3s ease;
     margin-left:15px;
 }
+
+
 #contactlink{
     margin-right:70px;
 }
@@ -69,14 +71,20 @@ html{
 
 
 /*home styling*/
-
+#woman{
+  display:block;
+  width:20%;
+  margin-left:auto;
+  margin-right:40px;
+  margin-top:32px;
+}
 .text1{
     text-align: center;
     color:#232323;
     font-size:36px;
     font-weight:100px;
     font-family: 'Work Sans', sans-serif;
-    margin-top:120px;
+    margin-top:110px;
 }
 .text2{
     text-align: center;
@@ -86,14 +94,14 @@ html{
     font-weight:100;
     margin-left:270px;
     margin-right:270px;
-    margin-top:30px;
+    margin-top:34px;
 
 }
 body {
     background-color:
   }
   
-  :after,
+/*  :after,
   :before {
     box-sizing: border-box;
     margin: 0;
@@ -163,11 +171,11 @@ body {
       -ms-transform: translateY(-5px);
       transform: translateY(-5px);
     }
-  }
+  } */
   #protothumb{
-    display: block;
+    /*display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     width: 60%; 
     margin-top:225px;
     border-radius: 5px;
@@ -176,8 +184,12 @@ body {
       text-align: center;
       font-family: 'Work Sans', sans-serif;
       color:#232323;
-      font-size:25px;
+      font-size:20px;
       margin-top:30px;
+  }
+  .protocaption a:hover{
+    border-bottom-color: white;
+    text-decoration-color: white;
   }
   .protodescription{
     text-align: center;
@@ -187,19 +199,20 @@ body {
     margin-top:20px;
   }
   #webthumb{
-    display: block;
+    /*display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     width: 60%; 
     margin-top:80px;
     border-radius: 5px;
   }
   .webcaption{
-    text-align: center;
+    text-decoration:none;
     font-family: 'Work Sans', sans-serif;
     color:#232323;
-    font-size:25px;
+    font-size:20px;
     margin-top:30px;
+    margin-left: 170px;
 }
 .webdescription{
   text-align: center;
@@ -207,7 +220,7 @@ body {
   color:#4B4A4A;
   font-size:16px;
   margin-top:20px;
-}
+} 
 #digitalthumb{
     display: block;
     margin-left: auto;
@@ -220,7 +233,7 @@ body {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     color:#232323;
-    font-size:25px;
+    font-size:20px;
     margin-top:30px;
 }
 .digitaldescription{
@@ -239,11 +252,12 @@ body {
     border-radius: 5px;
   }
   .photocaption{
-    text-align: center;
     font-family: 'Work Sans', sans-serif;
     color:#232323;
-    font-size:25px;
-    margin-top:30px;
+    font-size:20px;
+    margin-top:-49px;
+    margin-left:130px;
+    margin-bottom:100px;
 }
 .photodescription{
   text-align: center;
@@ -322,5 +336,91 @@ body {
       }
   }
   span{
-    color:#DA3C76;
+    color:#3C81F2;
+  }
+
+  .fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  #protothumb{
+    display:inline-block;
+    width:35%;
+  }
+  #webthumb{
+    display:inline-block;
+    width:35%;
+  }
+  .column{
+    box-sizing: border-box;
+  float: left;
+  display: inline-block;
+  }
+
+  .column {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    display: inline-block;
+  }
+  
+  ul{
+  
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  }
+  #protothumbp{
+    width: 86%; 
+    margin-top:80px;
+    border-radius: 5px;
+    margin-left:60px;
+  }
+  #webthumbp{
+    width: 86%; 
+    margin-top:80px;
+    border-radius: 5px;
+    margin-right:60px;
+  }
+  #digitalthumbp{
+    width: 86%; 
+    margin-top:80px;
+    border-radius: 5px;
+    margin-left:60px;
+  }
+  #photothumbp{
+    width: 86%; 
+    margin-top:80px;
+    border-radius: 5px;
+    margin-right:60px;
+    margin-bottom:80px;
+  }
+  .white{
+    color:white;
   }
