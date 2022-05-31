@@ -18,6 +18,7 @@ html{
     font-family: 'Work Sans', sans-serif;
     transition: all .03s ease;
 }
+/*width format*/
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -36,6 +37,7 @@ html{
 
 
 }
+/*nav item styling*/
 .navbar .navbar-nav li a{
     color: #232323;
     text-decoration: none;
@@ -47,22 +49,22 @@ html{
 
 
 #contactlink{
-    margin-right:70px;
+    margin-right:40px;
+}
+/*nav hover styling*/
+.navbar .navbar-nav li a:hover{
+  border-bottom:1.5px solid #232323;
+  padding-bottom:5px;
 }
 
-.navbar .navbar-nav li a:hover{
-    color:;
-    border-bottom:1.5px solid #232323;
-    padding-bottom:5px; 
-    transition: 
-}
+.navbar
 /*.navbar .logo a{
     color: black;
     font-size: 27px;
     font-weight: 650;
     font-family:'BIZ UDPGothic', sans-serif;
 }*/
-
+/*logo*/
 .navbar-brand img{
     width:6%;
     margin-left:-18px;
@@ -84,7 +86,7 @@ html{
     font-size:36px;
     font-weight:100px;
     font-family: 'Work Sans', sans-serif;
-    margin-top:110px;
+    margin-top:80px;
 }
 .text2{
     text-align: center;
@@ -95,12 +97,8 @@ html{
     margin-left:270px;
     margin-right:270px;
     margin-top:34px;
-
+    margin-bottom:50px;
 }
-body {
-    background-color:
-  }
-  
 /*  :after,
   :before {
     box-sizing: border-box;
@@ -255,7 +253,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     color:#232323;
     font-size:20px;
-    margin-top:-49px;
+    margin-top:-20px;
     margin-left:130px;
     margin-bottom:100px;
 }
@@ -396,30 +394,31 @@ body {
   padding-left: 2.5%;
   padding-right: 2.5%;
   }
+  /*thumbnails*/
   #protothumbp{
     width: 86%; 
     margin-top:80px;
     border-radius: 5px;
-    margin-left:60px;
+    margin-left:80px;
   }
   #webthumbp{
-    width: 86%; 
+    width: 82%; 
     margin-top:80px;
     border-radius: 5px;
-    margin-right:60px;
+    margin-right:50px;
   }
   #digitalthumbp{
-    width: 86%; 
+    width: 85%; 
     margin-top:80px;
     border-radius: 5px;
-    margin-left:60px;
+    margin-left:80px;
   }
   #photothumbp{
     width: 86%; 
     margin-top:80px;
     border-radius: 5px;
     margin-right:60px;
-    margin-bottom:80px;
+    margin-bottom:50px;
   }
   .white{
     color:white;
