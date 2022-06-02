@@ -83,7 +83,7 @@ html{
 .text1{
     text-align: center;
     color:#232323;
-    font-size:36px;
+    font-size:32px;
     font-weight:100px;
     font-family: 'Work Sans', sans-serif;
     margin-top:80px;
@@ -91,7 +91,7 @@ html{
 .text2{
     text-align: center;
     color:#232323;
-    font-size:19px;
+    font-size:18px;
     font-family: 'Work Sans', sans-serif;
     font-weight:100;
     margin-left:270px;
@@ -210,7 +210,7 @@ html{
     color:#232323;
     font-size:20px;
     margin-top:30px;
-    margin-left: 170px;
+    margin-left: 150px;
 }
 .webdescription{
   text-align: center;
@@ -334,7 +334,7 @@ html{
       }
   }
   span{
-    color:#697DF9;
+    color:;
   }
 
   .fade-in {
