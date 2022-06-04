@@ -81,8 +81,7 @@ html, body {
 /*background image for home*/
 .home{
     /*display: flex;*/
-    background: url("../images/photohom13.jpg") no-repeat center;
-    background-size:cover;
+    background-color:#deaba8;
     /*background-size:1280px;
     min-height: 500px;
     width:100%;*/
@@ -91,25 +90,26 @@ html, body {
 /*text styling*/
 .hello{
     color:#ffff;
-    font-size:58px;
+    font-size:40px;
     font-weight:600;
     font-family: 'Work Sans', sans-serif;
-    margin-top:180px;
-    margin-left:150px;
+    margin-top:10px;
+    text-align:center;
 }
 .text2{
     color:#ffff;
     font-size:18px;
     font-family: 'Work Sans', sans-serif;
     font-weight:normal;
-    margin-top:30px;
+    margin-top:100px;
     margin-bottom:170px;
+    text-align:center;
 }
 /*text animation*/
 .hello{
-    -webkit-animation-fill-mode:both;
-    -webkit-animation-duration:2s;
-    animation-duration:2s;
+    -webkit-animation-fill-mode:both !important; 
+    -webkit-animation-duration:2s !important;
+    animation-duration:2s !important;
   }
   .text2{
     animation-delay:.5s;
@@ -120,11 +120,11 @@ html, body {
   }
   @-webkit-keyframes fadeOutUp {
       0% {
-          opacity: 0;
-          -webkit-transform: translateY(1);
-      -webkit-transform: translateY(40px);
+          opacity: 0 !important;
+          -webkit-transform: translateY(1) !important;
+      -webkit-transform: translateY(40px) !important;
       }	100% {
-          opacity: 1;
+          opacity: 1 !important;
       }
   }
   
@@ -148,3 +148,70 @@ html, body {
           opacity: 1;
       }
   }
+figure{
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.photo{
+  width:30%;
+  border: solid 8px white;
+  box-shadow: 0px 0px 5px #949494;
+  margin:10px;
+}
+#building, #bubbles, #stairs{
+  margin-top:80px;
+}
+.gradient{
+  background-image: linear-gradient(180deg, #deaba8, white);
+  background-repeat: no-repeat;
+  margin-bottom:100px;
+}
+/*image fade*/
+.photo {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+}
+
+/*icon*/
+.icons{
+  text-align: center;
+  padding:30px;
+}
+.uil{
+    margin:30px;
+    color:#232323;
+}
+.uil:hover{
+    color:#9C9C9C;
+    transition: color 0.2s ease;
+}
