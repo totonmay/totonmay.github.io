@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     text-decoration: none;
 
 }
@@ -52,20 +52,12 @@ html, body {
     margin-left:15px;
 }
 
+#logoimage{
+  margin-top:25px;
+  margin-left:62px;
+  width:4%;
+}
 
-#contactlink{
-    margin-right:70px;
-}
-#worklink{
-    border-bottom:1.5px solid #F7F7F7;
-    padding-bottom:5px; 
-}
-.navbar .navbar-nav li a:hover{
-    color:;
-    border-bottom:1.5px solid #F0F0F0;
-    padding-bottom:5px; 
-    transition: 
-}
 /*.navbar .logo a{
     color: black;
     font-size: 27px;
@@ -120,7 +112,7 @@ html, body {
       0% {
           opacity: 0 !important;
           -webkit-transform: translateY(1) !important;
-      -webkit-transform: translateY(40px) !important;
+      -webkit-transform: translateY(0px) !important;
       }	100% {
           opacity: 1 !important;
       }
@@ -140,7 +132,7 @@ html, body {
       0%{
       opacity: 0;
           -webkit-transform: translateY(1);
-      -webkit-transform: translateY(40px);
+      -webkit-transform: translateY(0px);
     }
     100% {
           opacity: 1;
@@ -156,7 +148,7 @@ figure{
   width:28%;
   
   margin:5px;
-  margin-bottom:-10px;
+  margin-bottom:px;
 }
 #building, #bubbles, #stairs{
   margin-top:80px;
@@ -208,4 +200,70 @@ figure{
 .uil:hover{
     color:#9C9C9C;
     transition: color 0.2s ease;
+}
+/*modal*/
+.photo{
+  cursor: pointer;
+}
+.photo:hover {
+  filter:brightness(60%)  ;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
 }
