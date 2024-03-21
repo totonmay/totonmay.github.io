@@ -239,15 +239,16 @@ font-size:20px;
     box-shadow: 0px 0px 10px #232323;
     width:23%;
     margin-top:100px;
-    margin-right:10px;
-    margin-left:10px;
+    margin-right:30px;
+    margin-left:40px;
 }
 #frame2{
     border-radius:20px;
     box-shadow: 0px 0px 10px #232323;
     width:23%;
     margin-top:100px;
-    margin-right:10px;
+    margin-left:40px;
+    margin-right:40px;
 }
 #frame3{
     border-radius:20px;
@@ -267,23 +268,23 @@ font-size:20px;
     border-radius:20px;
     box-shadow: 0px 0px 8px #232323;
     width:23%;
-    margin-top:50px;
-    margin-right:10px;
-    margin-left:10px;
+    margin-top:100px;
+    margin-right:40px;
+    margin-left:40px;
 }
 #frame6{
     border-radius:20px;
     box-shadow: 0px 0px 8px #232323;
     width:23%;
     margin-top:50px;
-    margin-right:10px;
+    margin-right:60px;
 }
 #frame7{
     border-radius:20px;
     box-shadow: 0px 0px 8px #232323;
     width:23%;
     margin-top:50px;
-    margin-right:10px;
+    margin-right:60px;
 }
 /*icons*/
 .icons{

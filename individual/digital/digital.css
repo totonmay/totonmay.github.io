@@ -53,6 +53,38 @@ html, body {
     margin-left:15px;
 }
 
+.flex{
+    display: flex;
+      justify-content: center;
+      text-align: center;
+}
+#wallifywhite{
+width:50%;
+box-shadow: 0px 0px 5px #949494;
+margin-right:30px;
+margin-bottom:50px;
+}
+#wallifyblack{
+width:50%;
+box-shadow: 0px 0px 5px #949494;
+margin-left:30px;
+margin-bottom:50px;
+}
+
+#deja{
+    width:40%;
+    box-shadow: 0px 0px 5px #949494;
+    margin-right:20px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#roblox{
+    width:40%;
+    box-shadow: 0px 0px 5px #949494;
+    margin-left:20px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
 
 #contactlink{
     margin-right:70px;
@@ -82,7 +114,7 @@ html, body {
 /*background image for home*/
 .home{
     /*display: flex;*/
-    background: url("../images/digitalhome4.jpg") no-repeat center;
+    background: url("../images/logotopcrop.png") no-repeat center;
     background-size:cover;
     /*background-size:1280px;
     min-height: 500px;
@@ -246,7 +278,7 @@ figcaption{
     margin:auto;
     width:60%;
     box-shadow: 0px 0px 5px #949494;
-    margin-top:30px;
+    margin-top:50px;
 }
 .gloves{
     display:block;
@@ -295,7 +327,7 @@ figcaption{
       margin-bottom:100px;
       }
 .back{
-    background-color:#a5aae4;
+    background-color:#d6c8fe;
     padding:20px;
 }
 #white{
